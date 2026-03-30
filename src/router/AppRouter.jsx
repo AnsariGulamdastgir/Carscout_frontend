@@ -6,7 +6,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Login } from "../components/Login";
 import { Signup } from "../components/Signup";
 import { ForgotPassword } from "../components/forgotpassword";
-import { ResetPassword } from "../components/resetpassword";
+import { ResetPassword } from "../components/Resetpassword"; //reset tha r cap ki
 
 // ==============================
 // CUSTOMER COMPONENTS
@@ -49,7 +49,7 @@ const router = createBrowserRouter([
    {path:'/login', element:<Login/>},
    {path:'/signup', element: <Signup/>},
    {path:'/forgotpassword', element: <ForgotPassword/>},
-   {path:'/resetpassword/:token', element: <ResetPassword/>},
+   {path:'/Resetpassword/:token', element: <ResetPassword/>},//reset tha r c ki
    {path:'/', element: <Home/>},
    {path:'/sellcar', element: <SellCar/>},
    {path:'/profile', element: <ProfilePage/>},
